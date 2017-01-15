@@ -1,0 +1,18 @@
+## About the Project
+
+This is a project to examine crime patterns in the locations of cannabis shops in Seattle. There are a few questions I'm seeking to answer:
+
+1. Is there a relationship between crime and legal cannabis stores in Seattle? Should communities be concerned if a new pot store is opening up in their neighborhood? Note -- this will NOT be true causal analysis, but a correlation may be of interest.
+2. What is the relationship between pot stores, crime, and demographics? Is there greater prosecution of minority groups for nusiance crimes near pot stores? If so, this may be a reflection of the racially biased drug war.
+3. Is there a relationship between store revenue and crime? Are stores in higher socio-economic status (SES) neighborhoods making more than those in lower income neighborhoods?
+4. Are cannabis store locations distributed equitably across the city? That is, are the locations available to open stores concentrated in lower-income neighborhoods?
+
+No doubt I'll think of other questions as the project progresses.
+
+## Data Sources
+
+- Seattle 911 Incident Reports. These will capture a range of incidents across the city. Lat/Lon is provided, which makes analysis easier than crime reported by a per-district basis.
+- Cannabis retail info. The locations of all the cannabis stores in Seattle. Also, the amount of revenue the stores make.
+- Socioeconomic Data, from the US Census / American Community Survey. I haven't determined which of their data sets is most appropriate.
+
+
