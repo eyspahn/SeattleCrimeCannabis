@@ -11,8 +11,6 @@ No doubt I'll think of other questions as the project progresses.
 
 ## Data Sources
 
-- Seattle 911 Incident Reports. These will capture a range of incidents across the city. Lat/Lon is provided, which makes analysis easier than crime reported by a per-district basis.
-- Cannabis retail info. The locations of all the cannabis stores in Seattle. Also, the amount of revenue the stores make.
-- Socioeconomic Data, from the US Census / American Community Survey. I haven't determined which of their data sets is most appropriate.
-
-
+- Seattle 911 Incident Reports. These will capture a range of incidents across the city. Lat/Lon is provided, which makes analysis easier than crime reported by a per-district basis. The file is currently 1.3 Million + entries long, so let's access what we need by the [API](https://dev.socrata.com/foundry/data.seattle.gov/pu5n-trf4).
+- Cannabis retail info. The locations of all the cannabis stores in Seattle and when they opened. Also, the amount of revenue the stores make. This is available through data from the Washington Liquor and Cannabis Board.
+- Socioeconomic Data, from the US Census / American Community Survey. Currently leaning towards the ACS 5-year survey. The ACS has a [handbook for data users] (https://www.census.gov/content/dam/Census/library/publications/2008/acs/ACSGeneralHandbook.pdf) which includes details on the data, collection methods, error, and so on, and the appedices get into the statistical measures - margin of error, confidence intervals, and so on.
